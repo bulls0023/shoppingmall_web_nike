@@ -111,3 +111,86 @@
     </div>
 </body>
 </html>
+
+
+body{
+    margin: 0;
+    min-width: 900px;
+    
+}
+.navbar{
+    height: 60px;
+    padding-left: 30px;
+}
+.logo{
+    
+    line-height: 50px;
+    float: left;
+    font-size: 10px;
+    font-style: oblique;
+    font-weight: bolder;
+}
+.logo img{
+    vertical-align: middle;
+}
+.navbar ul{
+    float: right;
+}
+.navbar li{
+    list-style-type: none;
+    float: left;
+    margin-right: 30px;
+}
+.navbar a{
+    text-decoration: none;
+    color : black;
+    font-style : bold;
+    font-size: 13px;
+}
+.hero_header{
+    
+    height: 500px;
+    width: 100%;
+    display: block;
+    border: 3px solid black;
+}
+body h1{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 24xp;
+    font-size: 24px;
+    font-style: bold;
+    color :#131313;
+   
+}
+
+.products{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    width: 740px;
+    text-align: center;
+}
+.products img{
+    width: 225px;
+    height: 225px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.price{
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.clearfix{
+    clear: both;
+}
+.footer{
+    text-align: center;
+}
+.footer img{
+    margin-top: 40px;
+    height: 20px; 
+    margin-bottom: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
